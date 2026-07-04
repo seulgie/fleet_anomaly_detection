@@ -3,8 +3,8 @@
 **Reimagining a 2018 project with today's stack.**
 
 In 2018, I built a GPS anomaly detection system for a construction fleet
-at Kolon Benit (Seoul) — detecting unauthorized routes, off-hours operations,
-and suspicious dwell patterns. The stack was Python + PostGIS + manual SQL loops.
+in Seoul — detecting unauthorized routes, off-hours operations,
+and suspicious dwell patterns. 
 
 Eight years later, I rebuilt the same system from scratch to see what would
 actually change. Here's what I found.
@@ -21,8 +21,7 @@ But a small fraction reveals operational risk:
 - Routes deviating into restricted areas (parks, residential streets)
 - Excessive dwell times at unknown locations (suspicious activity)
 
-The original 2018 system worked. But it was slow, expensive to maintain,
-and required PostGIS infrastructure no one on the team really understood.
+The original 2018 system worked. But it was slow and expensive to maintain.
 
 ---
 
@@ -34,8 +33,6 @@ and required PostGIS infrastructure no one on the team really understood.
 | Aggregation | SQL loops in Python | **DuckDB** in-memory analytical SQL |
 | Infrastructure | Server with PostGIS | **Zero**: runs on a laptop |
 | Scoring | Complex rules-only | **Hybrid**: hard rules + statistical baseline |
-| Visualization | Static QGIS exports | **Folium** interactive maps |
-| Cost to run | Cloud server + DBA time | **€0**, local Python |
 
 The interesting part: **the architecture is simpler now, not more complex.**
 The 2026 version has fewer moving parts than the 2018 version did, despite
@@ -138,8 +135,7 @@ hybrid scoring pattern applies to:
 - Geofence-based campaign attribution (mobility ad-tech)
 - Insurance telematics (driving behavior scoring)
 
-I've worked with several of these problem classes in past roles — the substrate
-is GPS telemetry, the problem is always operational anomaly detection on
+The substrate is GPS telemetry, the problem is always operational anomaly detection on
 messy streams.
 
 ---
@@ -174,8 +170,7 @@ python src/visualize.py             # ~2 seconds
 open output/fleet_overview.html
 ```
 
-Total runtime end-to-end: **under 15 seconds on a laptop.** The 2018 PostGIS
-setup took ~10 minutes for the same workload.
+Total runtime end-to-end: **under 15 seconds on a laptop.** 
 
 ---
 
@@ -197,7 +192,7 @@ Three honest next steps if this were going to production:
 
 ## Background
 
-I built the original 2018 version at Kolon Benit while working on
+I built the original 2018 version while working on
 GIS-driven operational analytics in Seoul. Today I focus on mobility,
 geospatial, and operational data systems in Paris.
 
