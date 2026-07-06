@@ -1,0 +1,162 @@
+{
+  "depot": {
+    "name": "depot_central",
+    "lat": 48.9123,
+    "lon": 2.3567,
+    "type": "depot"
+  },
+  "construction_sites": [
+    {
+      "name": "site_la_defense",
+      "lat": 48.892,
+      "lon": 2.238,
+      "type": "site"
+    },
+    {
+      "name": "site_saint_denis",
+      "lat": 48.9362,
+      "lon": 2.3574,
+      "type": "site"
+    },
+    {
+      "name": "site_bercy",
+      "lat": 48.84,
+      "lon": 2.3826,
+      "type": "site"
+    },
+    {
+      "name": "site_ivry",
+      "lat": 48.8128,
+      "lon": 2.3878,
+      "type": "site"
+    },
+    {
+      "name": "site_nanterre",
+      "lat": 48.8924,
+      "lon": 2.2065,
+      "type": "site"
+    }
+  ],
+  "quarries": [
+    {
+      "name": "quarry_cergy",
+      "lat": 49.0382,
+      "lon": 2.078,
+      "type": "quarry"
+    },
+    {
+      "name": "quarry_meaux",
+      "lat": 48.9601,
+      "lon": 2.8783,
+      "type": "quarry"
+    },
+    {
+      "name": "quarry_evry",
+      "lat": 48.6298,
+      "lon": 2.4416,
+      "type": "quarry"
+    }
+  ],
+  "disposal_zones": [
+    {
+      "name": "disposal_villeneuve",
+      "lat": 48.737,
+      "lon": 2.4309,
+      "type": "disposal"
+    },
+    {
+      "name": "disposal_bonneuil",
+      "lat": 48.7665,
+      "lon": 2.487,
+      "type": "disposal"
+    }
+  ],
+  "restricted_zones": [
+    {
+      "name": "restricted_bois_boulogne",
+      "lat": 48.8615,
+      "lon": 2.253,
+      "radius_km": 0.8,
+      "type": "park"
+    },
+    {
+      "name": "restricted_residential_montreuil",
+      "lat": 48.8615,
+      "lon": 2.448,
+      "radius_km": 0.5,
+      "type": "residential"
+    }
+  ],
+  "authorized_locations": [
+    {
+      "name": "depot_central",
+      "lat": 48.9123,
+      "lon": 2.3567,
+      "type": "depot"
+    },
+    {
+      "name": "site_la_defense",
+      "lat": 48.892,
+      "lon": 2.238,
+      "type": "site"
+    },
+    {
+      "name": "site_saint_denis",
+      "lat": 48.9362,
+      "lon": 2.3574,
+      "type": "site"
+    },
+    {
+      "name": "site_bercy",
+      "lat": 48.84,
+      "lon": 2.3826,
+      "type": "site"
+    },
+    {
+      "name": "site_ivry",
+      "lat": 48.8128,
+      "lon": 2.3878,
+      "type": "site"
+    },
+    {
+      "name": "site_nanterre",
+      "lat": 48.8924,
+      "lon": 2.2065,
+      "type": "site"
+    },
+    {
+      "name": "quarry_cergy",
+      "lat": 49.0382,
+      "lon": 2.078,
+      "type": "quarry"
+    },
+    {
+      "name": "quarry_meaux",
+      "lat": 48.9601,
+      "lon": 2.8783,
+      "type": "quarry"
+    },
+    {
+      "name": "quarry_evry",
+      "lat": 48.6298,
+      "lon": 2.4416,
+      "type": "quarry"
+    },
+    {
+      "name": "disposal_villeneuve",
+      "lat": 48.737,
+      "lon": 2.4309,
+      "type": "disposal"
+    },
+    {
+      "name": "disposal_bonneuil",
+      "lat": 48.7665,
+      "lon": 2.487,
+      "type": "disposal"
+    }
+  ],
+  "work_hours": {
+    "start": 7,
+    "end": 17
+  }
+}

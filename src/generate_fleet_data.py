@@ -3,7 +3,7 @@ src/generate_fleet_data.py
 ---------------------------
 Generate synthetic GPS telemetry for a construction fleet operating
 in the Greater Paris area. Mimics the operational reality of the
-original 2018 Kolon project: trucks moving between construction sites,
+original 2018 project: trucks moving between construction sites,
 quarries, and waste disposal zones — with both compliant and
 non-compliant behaviour patterns embedded for evaluation.
 
